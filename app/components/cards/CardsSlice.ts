@@ -30,7 +30,7 @@ export const fetchCards = createAsyncThunk("cards/fetchCards", async () => {
   const deckId = deckData.deck_id;
 
   const cardsResponse = await fetch(
-    `https://deckofcardsapi.com/api/deck/${deckId}/draw/?count=2`
+    `https://deckofcardsapi.com/api/deck/${deckId}/draw/?count=4`
   );
   const cardsData = await cardsResponse.json();
 

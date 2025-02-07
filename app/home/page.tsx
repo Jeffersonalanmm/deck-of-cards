@@ -14,7 +14,7 @@ export default function Home() {
     <div className="container mx-auto px-4 py-8 w-full">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {isLoading
-          ? Array.from({ length: 2 }).map((_, index) => (
+          ? Array.from({ length: 4 }).map((_, index) => (
               <div
                 key={index}
                 className="bg-gray-200 animate-pulse h-48 rounded-lg"
